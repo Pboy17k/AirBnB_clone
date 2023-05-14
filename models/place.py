@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"""This module creates a Place class"""
-
+""" Place Module for HBNB project """
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """Class for managing place objects"""
-
+    """ A place to stay """
     city_id = ""
     user_id = ""
     name = ""
